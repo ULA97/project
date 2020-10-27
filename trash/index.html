@@ -1,0 +1,157 @@
+<!doctype html> <!-- Взятый шаблон из bootstrap -->
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary"> <!-- Скопипастили меню из Бутстрапа -->
+      <a class="navbar-brand" href="#">Navbar</a> <!-- с помощью хэш тега можем установить ссылку куда будет вести меню -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> <!-- Адаптивное меню чтобы переходить на мобилку -->
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> <!-- Есть технический СПАН для людей с ограниченными возможностями -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown"> <!-- Дроп даун выпадающее меню -->
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container"> <!-- Если страничка на весь экран тогда используем container-fluid растягивает контейнер на весь экран --> <!-- Если используем колоночную верстку, тогда необходимо использовать просто container -->
+      <div class="row">  <!-- Боковые строки на макете -->
+        <div class="col">
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div> <!-- Колонки между строками --> <!-- Чтобы сработало, необходимо соблюдать вложенность (Контейнер, роу, кол) -->
+        <div class="col">
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div> <!-- можно модифицировать цифрой после класса -->
+      </div>
+    </div>
+
+
+
+    <div class="container"> <!-- Если страничка на весь экран тогда используем container-fluid растягивает контейнер на весь экран --> <!-- Если используем колоночную верстку, тогда необходимо использовать просто container -->
+      <div class="row">  <!-- Боковые строки на макете -->
+        <div class="col">
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div> <!-- Колонки между строками --> <!-- Чтобы сработало, необходимо соблюдать вложенность (Контейнер, роу, кол) -->
+        <div class="col">
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Название карточки</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+            </div>
+          </div>
+        </div>
+        <div class="col"> <!-- можно модифицировать цифрой после класса -->
+          <div class="card mt-5" style="width: 18rem;">
+              <img src="https://www.biletik.aero/upload/iblock/5b1/5b14c9a63a6fe8d50916d267824613ea.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Название карточки</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
+              </div>
+          </div>
+        </div> 
+      </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://sputniknews.kz/images/1021/14/10211437.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://sputniknews.kz/images/1021/14/10211437.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://sputniknews.kz/images/1021/14/10211437.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
